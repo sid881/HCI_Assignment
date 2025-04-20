@@ -155,6 +155,9 @@ Both the web and mobile tests will:
 - Record response times for each action
 
 ---
+## Notes on app tap functions
+  -since amazon has only native app support ie android webview is disabled by default. majority of the fuctions are operated in this code are by tap_gestures by locating ui elements by thier relative position. 
+  
 
 ## License
 
