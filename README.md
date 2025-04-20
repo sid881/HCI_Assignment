@@ -22,7 +22,7 @@ This repository contains the code and documentation for **Assignment 3: Automate
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/sid881/bits-f364-assignment3.git
+   git clone https://github.com/sid881/HCI_Assignment.git
    cd bits-f364-assignment3
    ```
 
