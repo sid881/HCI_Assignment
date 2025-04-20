@@ -69,7 +69,7 @@ def run_amazon_app():
             'new UiSelector().resourceId("s-all-filters")'))
         )
         filter_button.click()
-        time.sleep(10)
+        time.sleep(5)
 
         # Scroll down using swipe gesture to reveal "Sort by" option
         start_x, start_y = get_percentage_position(screen_width, screen_height, 24, 81)
@@ -96,7 +96,7 @@ def run_amazon_app():
 
         time.sleep(5)
         lowest_price_filter_time_end = time.time()
-        print(f"[b] Lowest priced headphone filter completed in {round(lowest_price_filter_time_end - lowest_price_filter_start - 25, 2)} seconds")
+        print(f"[b] Lowest priced headphone filter completed in {round(lowest_price_filter_time_end - lowest_price_filter_start - 20, 2)} seconds")
 
         # [c] Sort by highest rated
         highest_rated_start_time = time.time()
