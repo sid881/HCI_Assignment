@@ -156,8 +156,8 @@ Both the web and mobile tests will:
 
 ---
 ## Notes on app tap functions
-  -Since the Amazon Android app disables WebView support by default and uses only native components, most automated interactions in this script are performed using tap gestures. These gestures locate UI elements based on their relative positions or accessibility identifiers, due to limited access to traditional web-based DOM queries.
-  -Since DOM-based retrieval of product names and prices was not possible due to the native nature of the Amazon app, screenshots of the results were captured instead for further 
+Since the Amazon Android app disables WebView support by default and uses only native components, most automated interactions in this script are performed using tap gestures. These gestures locate UI elements based on their relative positions or accessibility identifiers, due to limited access to traditional web-based DOM queries.
+Since DOM-based retrieval of product names and prices was not possible due to the native nature of the Amazon app, screenshots of the results were captured instead for further 
    analysis or manual verification. these two screenshot are saved as lowest_priced.png and customer_review.png.
   
 
