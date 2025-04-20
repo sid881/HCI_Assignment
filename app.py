@@ -127,7 +127,7 @@ def run_amazon_app():
         for _ in range(1):
             driver.swipe(start_x, start_y, end_x, end_y, 600)
 
-        time.sleep(1)
+        time.sleep(3)
         final_tap_x, final_tap_y = get_percentage_position(screen_width, screen_height, 69, 83)
         perform_tap(driver, final_tap_x, final_tap_y)
         time.sleep(3)
